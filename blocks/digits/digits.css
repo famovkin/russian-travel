@@ -1,0 +1,14 @@
+.digits {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  color: #fff;
+  font-size: 12px;
+  line-height: 1.5;
+  font-weight: normal;
+  font-style: normal;
+}
+
+.digits__span-accent {
+  font-weight: bold;
+}
