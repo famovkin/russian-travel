@@ -2,6 +2,19 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  min-width: 320px;
+  min-width: 288px;
   max-width: 100vw;
+}
+
+@media (max-width: 660px) {
+  .footer {
+    align-items: flex-end;
+  }
+}
+
+@media (max-width: 400px) {
+  .footer {
+    flex-direction: column;
+    align-items: flex-start;
+  }
 }

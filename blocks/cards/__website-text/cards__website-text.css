@@ -2,9 +2,15 @@
   margin: 0;
   color: #aaa;
   font-size: 12px;
-  line-height: 1;
+  line-height: 1.7;
   font-weight: normal;
   font-style: normal;
   letter-spacing: 2px;
   margin-bottom: 12px;
+}
+
+@media (max-width: 768px) {
+  .cards__website-text {
+    line-height: 1;
+  }
 }

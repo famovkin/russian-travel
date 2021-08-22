@@ -8,3 +8,47 @@
   font-style: normal;
   margin-bottom: 64px;
 }
+
+@media (max-width: 1024px) {
+  .lead__subtitle {
+    margin-bottom: 56px;
+  }
+}
+
+@media (max-width: 560px) {
+  .lead__subtitle {
+    font-size: 26px;
+  }
+}
+
+@media (max-width: 480px) {
+  .lead__subtitle {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 410px) {
+  .lead__subtitle {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 377px) {
+  .lead__subtitle {
+    font-size: 21px;
+  }
+}
+
+@media (max-width: 366px) {
+  .lead__subtitle {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 343px) {
+  .lead__subtitle {
+    font-size: 16px;
+    line-height: 1.25;
+    margin-bottom: 40px;
+  }
+}

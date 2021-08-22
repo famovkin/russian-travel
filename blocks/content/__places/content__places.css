@@ -2,3 +2,26 @@
   margin: 0 auto;
   margin-bottom: 92px;
 }
+
+@media (max-width: 1024px) {
+  .content__places {
+    margin-left: 48px;
+    margin-right: 48px;
+  }
+}
+
+@media (max-width: 768px) {
+  .content__places {
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-bottom: 90px;
+  }
+}
+
+@media (max-width: 320px) {
+  .content__places {
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 66px;
+  }
+}

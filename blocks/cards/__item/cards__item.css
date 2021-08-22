@@ -1,5 +1,30 @@
 .cards__item {
   display: grid;
-  grid-template-columns: 460px 484px;
+  grid-template-columns: 460px minmax(min-content, 1fr);
   gap: 48px 40px;
 }
+
+@media (max-width: 1024px) {
+  .cards__item {
+    grid-template-columns: 440px minmax(min-content, 1fr);
+    column-gap: 32px;
+  }
+}
+
+@media (max-width: 768px) {
+  .cards__item {
+    grid-template-columns: 340px minmax(min-content, 1fr);
+    column-gap: 28px;
+  }
+}
+
+@media (max-width: 685px) {
+  .cards__item {
+    grid-template-columns: 1fr;
+    row-gap: 32px;
+  }
+}
+
+
+
+

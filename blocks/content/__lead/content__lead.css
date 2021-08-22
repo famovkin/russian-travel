@@ -2,3 +2,23 @@
   margin: 0 auto;
   margin-bottom: 92px;
 }
+
+@media (max-width: 1024px) {
+  .content__lead {
+    margin-left: 48px;
+    margin-right: 48px;
+  }
+}
+@media (max-width: 768px) {
+  .content__lead {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 88px;
+  }
+}
+
+@media (max-width: 320px) {
+  .content__lead {
+    margin-bottom: 64px;
+  }
+}

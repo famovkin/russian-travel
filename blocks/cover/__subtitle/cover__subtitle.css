@@ -7,3 +7,22 @@
   text-align: center;
   white-space: pre-line;
 }
+
+@media (max-width: 600px) {
+  .cover__subtitle {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 420px) {
+  .cover__subtitle {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 320px) {
+  .cover__subtitle {
+    font-size: 14px;
+    line-height: 1.14;
+  }
+}
