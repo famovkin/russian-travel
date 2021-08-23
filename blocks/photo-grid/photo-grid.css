@@ -7,19 +7,19 @@
 }
 
 @media (max-width: 1024px) {
-  .content__photo-grid {
+  .photo-grid {
     gap: 14px;
   }
 }
 
 @media (max-width: 768px) {
-  .content__photo-grid {
+  .photo-grid {
     gap: 16px;
   }
 }
 
-@media (max-width: 768px) {
-  .content__photo-grid {
+@media (max-width: 320px) {
+  .photo-grid {
     gap: 12px;
   }
 }

@@ -9,18 +9,17 @@
 
 @media (max-width: 768px) {
   .cards__title {
+    max-width: 330px;
     font-size: 42px;
     line-height: 1.1;
-    white-space: pre-line;
   }
 }
 
-@media (max-width: 760px) {
+@media (max-width: 685px) {
   .cards__title {
-    white-space: normal;
+    max-width: 100%;
   }
 }
-
 
 @media (max-width: 320px) {
   .cards__title {
@@ -28,6 +27,5 @@
     line-height: 1.09;
     margin-left: 16px;
     margin-right: 16px;
-
   }
 }
