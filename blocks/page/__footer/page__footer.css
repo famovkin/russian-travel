@@ -3,6 +3,7 @@
   padding: 0 48px 24px;
 }
 
+
 @media (max-width: 768px) {
   .page__footer {
     padding-left: 24px;

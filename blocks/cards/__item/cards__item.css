@@ -18,7 +18,7 @@
   }
 }
 
-@media (max-width: 685px) {
+@media (max-width: 720px) {
   .cards__item {
     grid-template-columns: 1fr;
     row-gap: 32px;

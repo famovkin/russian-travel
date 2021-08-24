@@ -1,16 +1,4 @@
 .lang {
   align-self: center;
   display: flex;
-  color: #fff;
-  font-size: 24px;
-  line-height: 1.17;
-  font-weight: 400;
-  font-style: normal;
-}
-
-@media (max-width: 450px) {
-  .lang {
-    font-size: 18px;
-    line-height: 1.11;
-  }
 }

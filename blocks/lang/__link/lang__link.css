@@ -1,7 +1,21 @@
 .lang__link {
+  color: #fff;
+  font-size: 24px;
+  line-height: 1.17;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: none;
   margin: 0 18px 0 0;
 }
 
 .lang__link:last-of-type {
   margin-right: 0;
 }
+
+@media (max-width: 450px) {
+  .lang__link {
+    font-size: 18px;
+    line-height: 1.11;
+  }
+}
+

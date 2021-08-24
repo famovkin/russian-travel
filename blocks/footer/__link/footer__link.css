@@ -1,20 +1,9 @@
 .footer__link {
-  color: #fff;
-  font-size: 16px;
-  line-height: 1.12;
-  font-weight: normal;
-  font-style: normal;
-  text-decoration: none;
   margin-right: 18px;
-}
-
-.footer__link:last-of-type {
-  margin-right: 0;
 }
 
 @media (max-width: 660px) {
   .footer__link {
-    font-size: 20px;
     margin-right: 0;
     margin-bottom: 10px;
   }
@@ -25,8 +14,6 @@
 
 @media (max-width: 400px) {
   .footer__link {
-    font-size: 24px;
-    line-height: 1;
     margin-right: 0;
     margin-bottom: 32px;
   }

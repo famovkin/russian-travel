@@ -21,8 +21,8 @@
           class="logo"
         />
         <div class="lang">
-          <p class="lang__link lang__link_active">Ru</p>
-          <p class="lang__link">En</p>
+          <a href="#" class="lang__link lang__link_active link">Ru</a>
+          <a href="#" class="lang__link link">En</a>
         </div>
       </header>
 
@@ -48,7 +48,6 @@
         </section>
 
         <section class="intro content__intro">
-          <div class="intro__container">
             <h2 class="intro__title">
               Чего мы&nbsp;там не&nbsp;видели?
             </h2>
@@ -83,7 +82,6 @@
                 <span class="digits__span-accent">Аэропортов</span> 241
               </li>
             </ul>
-          </div>
         </section>
 
         <section class="photo-grid content__photo-grid" aria-label="Блок с фотографиями">
@@ -154,10 +152,10 @@
             <li class="cards__item places__item">
               <h3 class="cards__title">Куршская коса</h3>
               <div class="cards__website">
-                <p class="cards__website-text">URL</p>
+                <p class="cards__website-text">url</p>
                 <a
                   href="http://park-kosa.ru"
-                  class="cards__website-link opacity"
+                  class="cards__website-link link"
                   target="_blank"
                   >park-kosa.ru
                 </a>
@@ -193,7 +191,7 @@
                 <p class="cards__website-text">URL</p>
                 <a
                   href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy"
-                  class="cards__website-link opacity"
+                  class="cards__website-link link"
                   target="_blank"
                   >National Geographic</a
                 >
@@ -228,7 +226,7 @@
                 <p class="cards__website-text">URL</p>
                 <a
                   href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822"
-                  class="cards__website-link opacity"
+                  class="cards__website-link link"
                   target="_blank"
                   >Facebook</a
                 >
@@ -263,7 +261,7 @@
                 <p class="cards__website-text">URL</p>
                 <a
                   href="https://vk.com/baikalmile"
-                  class="cards__website-link opacity"
+                  class="cards__website-link link"
                   target="_blank"
                   >https://vk.com/baikalmile</a
                 >
@@ -297,7 +295,7 @@
                 <p class="cards__website-text">URL</p>
                 <a
                   href="http://vodlozero.ru"
-                  class="cards__website-link opacity"
+                  class="cards__website-link link"
                   target="_blank"
                   >http://vodlozero.ru/</a
                 >
@@ -343,13 +341,16 @@
       </main>
 
       <footer class="footer page__footer">
-        <nav class="footer__links">
-          <a href="https://yandex.ru/maps" class="footer__link opacity" target="_blank">Карты</a>
-          <a href="https://yandex.ru/pogoda" class="footer__link opacity" target="_blank">Погода</a>
-          <a href="https://rasp.yandex.ru" class="footer__link opacity" target="_blank">Расписание</a>
-          <a href="https://calendar.yandex.ru" class="footer__link opacity" target="_blank">Календарь</a>
-          <a href="https://travel.yandex.ru" class="footer__link opacity" target="_blank">Путешествия</a>
+        <nav>
+          <ul class="footer__links">
+            <li class="footer__link"><a href="https://yandex.ru/maps" class="page__link link" target="_blank">Карты</a></li>
+            <li class="footer__link"><a href="https://yandex.ru/pogoda" class="page__link link" target="_blank">Погода</a></li>
+            <li class="footer__link"><a href="https://rasp.yandex.ru" class="page__link link" target="_blank">Расписание</a></li>
+            <li class="footer__link"><a href="https://calendar.yandex.ru" class="page__link link" target="_blank">Календарь</a></li>
+            <li class="footer__link"><a href="https://travel.yandex.ru" class="page__link link" target="_blank">Путешествия</a></li>
+          </ul>
         </nav>
+
         <p class="footer__copyright">&#169; 2021. Фам Толя</p>
 
       </footer>

@@ -1,4 +1,5 @@
 .digits {
+  max-width: 690px;
   margin: 0;
   padding: 0;
   list-style: none;
@@ -7,4 +8,10 @@
   line-height: 1.5;
   font-weight: normal;
   font-style: normal;
+}
+
+@media (max-width: 768px) {
+  .digits {
+    max-width: 720px;
+  }
 }
