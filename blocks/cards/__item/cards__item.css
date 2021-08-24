@@ -11,14 +11,14 @@
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 910px) {
   .cards__item {
     grid-template-columns: 340px minmax(min-content, 1fr);
     column-gap: 28px;
   }
 }
 
-@media (max-width: 720px) {
+@media (max-width: 780px) {
   .cards__item {
     grid-template-columns: 1fr;
     row-gap: 32px;
